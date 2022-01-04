@@ -1,0 +1,80 @@
+body{ 
+
+    background: url("img/fundo-site.jpg") no-repeat center center;
+    background-size: cover;
+    height: 100%;
+    width: 100%;
+}
+
+a{ color: white;
+    text-decoration: none;
+    }
+    
+    
+    a:hover{ background-color: silver;
+        color: rgb(0, 0, 0);
+    
+    }
+
+    ul{ list-style: none;
+
+        display: flex;
+    
+        flex-direction: row;
+    
+        
+    
+    }
+    
+    li{
+        margin: 0 45px;
+        color: rgb(0, 0, 0);
+    
+    }
+
+    nav{
+
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        font-family: system ui,-apple-system, helvetica,arial, sans-serif;
+    }    
+
+    .field{ 
+        border-radius: 10px ;
+        
+        background-color:rgb(204, 20, 195)}
+
+        .oferta{
+            background-color: black;
+            color: white;
+            text-align: center;
+        }
+
+
+        .pagamento h3{
+            color: black;
+           }
+        
+           .pagamento{
+               text-align: center;
+               background-color: white;
+           }
+        
+           .atendimento{
+               background-color: rgb(204, 20, 195);
+               text-align: center;
+           }
+
+           h1{
+               text-align: center;
+           }
+    
+           .Button{ 
+    
+            border-radius: 10px;
+            background-color: chocolate;
+            color: black;
+            padding: 10px 15px;
+            outline: none;
+        }

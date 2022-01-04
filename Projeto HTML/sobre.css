@@ -1,0 +1,102 @@
+.topo{
+    background-color: rgb(218, 32, 177);
+}
+
+body{ 
+
+    background: url("img/fundo-site.jpg") no-repeat center center;
+    background-size: cover;
+    height: 100%;
+}
+
+h1{
+    color: white;
+    background-color: black;
+    text-align: center;
+}
+
+h2{
+    color: black;
+
+}
+
+p{
+    color: black;
+}
+
+nav{
+display: none;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-family: system ui,-apple-system, helvetica,arial, sans-serif;
+    
+   
+}
+
+
+ul{ list-style: none;
+
+    display: flex;
+
+    flex-direction: row;
+
+    text-align: left;
+
+}
+
+a{ color: white;
+    text-decoration: none;
+    }
+    
+    
+    a:hover{ background-color: silver;
+        color: rgb(0, 0, 0);
+
+    }
+
+    h2{
+        background-color: black;
+        color: white;
+    }
+
+    .oferta{
+        background-color: black;
+        color: white;
+        text-align: center;
+    }
+     
+    .pagamento h3{
+     color: black;
+    }
+ 
+    .pagamento{
+        text-align: center;
+        background-color: white;
+    }
+ 
+    .atendimento{
+        background-color: rgb(204, 20, 195);
+        text-align: center;
+    }
+    
+    h3{
+        text-align:center;
+    }
+
+    .Button{ 
+    
+        border-radius: 10px;
+        background-color: chocolate;
+        color: black;
+        padding: 10px 15px;
+        outline: none;
+    }
+
+    .historia{
+        background-color: white;
+    }
+
+    .qualidade{
+        text-align: center;
+    }
